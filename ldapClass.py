@@ -1,5 +1,10 @@
 from ldap3 import Server, Connection, ALL, MODIFY_ADD, MODIFY_DELETE
 
+#Author : GordonWei
+#Date : 04/22/20
+#Blog : https://www.kmp.tw/
+#Comment : Python3 Control Ldap 
+
 class ldapFunc():
 
 	def __init__(self, ip, loginUser, loginPass):
